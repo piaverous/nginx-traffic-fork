@@ -1,0 +1,15 @@
+{
+  "name": "express_base_app",
+  "version": "1.0.0",
+  "description": "Basic express app, does not do anything",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Averous <piaverous@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
