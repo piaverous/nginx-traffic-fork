@@ -10,27 +10,4 @@ services:
     ports:
       - "80:80"
       - "443:443"
-    depends_on:
-      - app1
-      - app2
-
-  app1:
-    build:
-      context: ./app1
-      dockerfile: Dockerfile
-    container_name: "app1"    
-    expose:
-      - "80"
-    ports:
-      - "3000:80"
-
-  app2:
-    build:
-      context: ./app2
-      dockerfile: Dockerfile
-    container_name: "app2"
-    expose:
-      - "80"
-    ports:
-      - "3001:80"
 
